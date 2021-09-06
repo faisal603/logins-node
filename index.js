@@ -10,4 +10,4 @@ app.get("/", (req, res) => {
 });
 
 const port = process.env.PORT || 5000;
-app.listen(port, console.log("hello hello dhola"));
+app.listen(port, console.log("I am runing on", port));
